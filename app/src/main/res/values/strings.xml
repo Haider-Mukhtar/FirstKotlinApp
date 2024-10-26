@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FirstKotlinApp</string>
+    <!-- Text -->
+    <string name="first_kotlin_app">First Kotlin App</string>
+    <string name="home_page">Home Page</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="linear_layout_horizontal">Linear Layout Horizontal</string>
+    <string name="linear_layout_vertical">Linear Layout Vertical</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="ui_components">UI Components</string>
+    <string name="grid">Grid Layout</string>
+    <!-- buttons -->
+    <string name="hello_btn">Hello to Kotlin App</string>
+    <string name="go_btn">Go to next Page</string>
+    <string name="linear_btn">Linear Layout</string>
+    <string name="relative_btn">Relative Layout</string>
+    <string name="ui_components_btn">UI Components</string>
+    <string name="chip_2">Chip 2</string>
+    <string name="grid_layout">Grid</string>
+</resources>
