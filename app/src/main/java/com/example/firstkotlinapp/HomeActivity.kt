@@ -41,6 +41,13 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val formButton: Button = findViewById(R.id.form_btn)
+        formButton.setOnClickListener {
+            val intent = Intent(this, BasicForm::class.java)
+            startActivity(intent)
+        }
+
+
         //myy code - end
         //=========================================================================================
 

@@ -9,6 +9,11 @@
     <string name="relative_layout">Relative Layout</string>
     <string name="ui_components">UI Components</string>
     <string name="grid">Grid Layout</string>
+    <string name="basic_form">Basic Form</string>
+    <string name="enter_name">Enter name:</string>
+    <string name="enter_email">Enter Email:</string>
+    <string name="enter_msg">Enter Message:</string>
+    <string name="form_data">Form Data</string>
     <!-- buttons -->
     <string name="hello_btn">Hello to Kotlin App</string>
     <string name="go_btn">Go to next Page</string>
@@ -17,4 +22,7 @@
     <string name="ui_components_btn">UI Components</string>
     <string name="chip_2">Chip 2</string>
     <string name="grid_layout">Grid</string>
+    <string name="form_btn">Basic Form</string>
+    <string name="send_btn">Send Form</string>
+    <string name="clear_form">Clear Form</string>
 </resources>
