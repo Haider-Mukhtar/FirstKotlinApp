@@ -12,6 +12,7 @@ This is my first Kotlin app. I'm experimenting with Kotlin for the first time an
 - Basic Form
 - Get Data from User
 - Send Data to another Activity
+- Share data to another apps
 
 ## Authors
 
