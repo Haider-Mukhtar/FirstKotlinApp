@@ -5,10 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class BasicForm : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,6 +17,7 @@ class BasicForm : AppCompatActivity() {
 
         val sendButton: Button = findViewById(R.id.send_form)
         val clearButton: Button = findViewById(R.id.clear_form)
+        val shareButton: Button = findViewById(R.id.share_form)
 
         sendButton.setOnClickListener {
             val nameInput: EditText = findViewById(R.id.name_input)
@@ -53,6 +51,26 @@ class BasicForm : AppCompatActivity() {
             emailInput.setText("")
             messageInput.setText("")
             Toast.makeText(this, "Form Data Cleared Successfully", Toast.LENGTH_SHORT).show()
+        }
+
+        shareButton.setOnClickListener {
+            val nameInput: EditText = findViewById(R.id.name_input)
+            val emailInput: EditText = findViewById(R.id.email_input)
+            val messageInput: EditText = findViewById(R.id.message_input)
+
+            val name = nameInput.text.toString()
+            val email = emailInput.text.toString()
+            val message = messageInput.text.toString()
+
+            val intent = Intent()
+            intent.action = Intent.ACTION_SEND
+            val shareBody = "Name: $name\nEmail: $email\nMessage: $message"
+            intent.putExtra(Intent.EXTRA_TEXT, shareBody)
+//            intent.putExtra(Intent.EXTRA_TEXT, email)
+//            intent.putExtra(Intent.EXTRA_TEXT, message)
+            intent.type = "text/plain"
+
+            startActivity(Intent.createChooser(intent, "Share To:"))
         }
 
         //my code - end
