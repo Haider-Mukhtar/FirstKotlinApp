@@ -47,6 +47,12 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val linearRecyclerViewButton: Button = findViewById(R.id.recyclerview_btn)
+        linearRecyclerViewButton.setOnClickListener {
+            val intent = Intent(this, LinearRecyclerView::class.java)
+            startActivity(intent)
+        }
+
 
         //myy code - end
         //=========================================================================================

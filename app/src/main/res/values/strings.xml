@@ -14,6 +14,7 @@
     <string name="enter_email">Enter Email:</string>
     <string name="enter_msg">Enter Message:</string>
     <string name="form_data">Form Data</string>
+    <string name="linear_recyclerView">Linear Recycler View</string>
     <!-- buttons -->
     <string name="hello_btn">Hello to Kotlin App</string>
     <string name="go_btn">Go to next Page</string>
@@ -21,9 +22,10 @@
     <string name="relative_btn">Relative Layout</string>
     <string name="ui_components_btn">UI Components</string>
     <string name="chip_2">Chip 2</string>
-    <string name="grid_layout">Grid</string>
+    <string name="grid_layout">Grid with Linear Layout</string>
     <string name="form_btn">Basic Form</string>
     <string name="send_btn">Send Form Data</string>
     <string name="clear_form">Clear Form Data</string>
     <string name="share_btn">Share Form Data</string>
+    <string name="recyclerView_btn">Linear Recycler View</string>
 </resources>
