@@ -13,6 +13,9 @@ This is my first Kotlin app. I'm experimenting with Kotlin for the first time an
 - Get Data from User
 - Send Data to another Activity
 - Share data to another apps
+- Linear Recycler View
+- Modal Class
+- Adapter Class
 
 ## Authors
 
